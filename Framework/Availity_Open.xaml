@@ -48,10 +48,19 @@
   <TextExpression.ReferencesForImplementation>
     <sco:Collection x:TypeArguments="AssemblyReference">
       <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
       <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
       <AssemblyReference>System</AssemblyReference>
       <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
       <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
       <AssemblyReference>System.Core</AssemblyReference>
       <AssemblyReference>System.Data</AssemblyReference>
       <AssemblyReference>System.Data.Common</AssemblyReference>
@@ -60,46 +69,38 @@
       <AssemblyReference>System.Drawing.Common</AssemblyReference>
       <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
       <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
       <AssemblyReference>System.ObjectModel</AssemblyReference>
       <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
       <AssemblyReference>System.Xaml</AssemblyReference>
       <AssemblyReference>System.Xml</AssemblyReference>
       <AssemblyReference>System.Xml.Linq</AssemblyReference>
-      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
-      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
-      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
-      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
-      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
-      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
-      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
-      <AssemblyReference>NPOI</AssemblyReference>
-      <AssemblyReference>System.Console</AssemblyReference>
-      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
-      <AssemblyReference>System.Security.Permissions</AssemblyReference>
-      <AssemblyReference>System.ComponentModel</AssemblyReference>
-      <AssemblyReference>System.Memory</AssemblyReference>
-      <AssemblyReference>System.Private.Uri</AssemblyReference>
-      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
-      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
-      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
-      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
-      <AssemblyReference>UiPath.Workflow</AssemblyReference>
-      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
-      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
-      <AssemblyReference>UiPath.GoogleCloud</AssemblyReference>
-      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
-      <AssemblyReference>UiPath.Platform</AssemblyReference>
       <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
-      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
-      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.GoogleCloud</AssemblyReference>
       <AssemblyReference>UiPath.GoogleCloud.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
       <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
       <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
-      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
-      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
       <AssemblyReference>WindowsBase</AssemblyReference>
-      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
-      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
   <Sequence DisplayName="Availity_Open" sap:VirtualizedContainerService.HintSize="1112,1876" sap2010:WorkflowViewState.IdRef="Sequence_1">
@@ -114,15 +115,9 @@
     </sap:WorkflowViewStateService.ViewState>
     <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Framework\GetAppCredentials.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="1050,115.33333333333333" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Framework\GetAppCredentials.xaml">
       <ui:InvokeWorkflowFile.Arguments>
-        <OutArgument x:TypeArguments="x:String" x:Key="out_Username">
-          <VisualBasicReference x:TypeArguments="x:String" ExpressionText="Username" />
-        </OutArgument>
-        <InArgument x:TypeArguments="x:String" x:Key="in_Credential">
-          <VisualBasicValue x:TypeArguments="x:String" ExpressionText="in_AvailityCredential" />
-        </InArgument>
-        <OutArgument x:TypeArguments="ss:SecureString" x:Key="out_Password">
-          <VisualBasicReference x:TypeArguments="ss:SecureString" ExpressionText="Password" />
-        </OutArgument>
+        <OutArgument x:TypeArguments="x:String" x:Key="out_Username">[Username]</OutArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_Credential">[in_AvailityCredential]</InArgument>
+        <OutArgument x:TypeArguments="ss:SecureString" x:Key="out_Password">[Password]</OutArgument>
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
     <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Chrome: Log In to Availity®" sap:VirtualizedContainerService.HintSize="1050,1610" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="eeb9078f-720f-4c6b-ad9a-ad4c25c3db5f" Version="V2">
@@ -142,7 +137,7 @@
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="https://apps.availity.com/availity/web/public.elegant.login" CvType="InputBox" DesignTimeRectangle="735, 906, 443, 46" DesignTimeScaleFactor="1.5" ElementType="InputBox" FriendlyName="'INPUT userId'" FullSelectorArgument="&lt;webctrl id='userId' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='userId' tag='INPUT' type='text' class='userId' aaname='User ID:' /&gt;" Guid="aaacb3c9-6b7a-4ff9-8d54-aba7ec62a1c2" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAb8AAAAyCAYAAADMStXAAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAGYSURBVHhe7dmxjYQwFEVRSpiYaimEHmYiiqIJrz6SETOz2mQj/M6RXmTnV5ipAUCYr/jt+962bWuv18vMzOy2q5ZV037zFr9lWdrj8TAzMxtm1bZPZ/yEz8zMRt1nAI/41WdhvzDPc1vXtT2fTzMzs9uuWlZN6327PoEe8at30X5YlwFgBNW03rdqXXfEr34M9sOqJQCMoJrW+1at68QPgGGJHwBxxA+AOP+K3zRNxwDgTsQPgDjiB0Ac8QMgjvgBEEf8AIgjfgDEET8A4ogfAHHED4A44gdAHPEDII74ARBH/ACII34AxBE/AOKIHwBxxA+AOOIHQBzxAyCO+AEQR/wAiCN+AMQRPwDiiB8AccQPgDjiB0Ac8QMgjvgBEEf8AIjzr/gBwB2JHwBxxA+AOOIHQJw/47dt23m4rutxAAB3V03rfavWdUf89n0/D+d5Pi5XLc3MzO66alk1rfetWtcd8SvLspwXzMzMRlo17uqMXxFAMzMbbZ/hK2/xK/VZWO+i9WPQzMzsrquWXZ86r77iBwBja+0HHSslzhPQ+FwAAAAASUVORK5CYII=" InformativeScreenshot="269729be040c805d25528c97cb42a33d.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Log In to Availity®' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V2" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target CvTextArgument="User ID:" CvType="Text" DesignTimeRectangle="735, 873, 88, 33" ElementType="Text" FriendlyName="'User ID'" FullSelectorArgument="&lt;webctrl parentid='id3' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='id3' tag='LABEL' type='' class='' aaname='User ID:' check:innerText='User ID:' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFwAAAAlCAYAAADPwo5RAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAQlSURBVGhD7ZhBSxtBFMf7Efxi4mGR7sUgjQW1SAptRFEwgnqQQIsHFSVgkAqhYg0EpRJQltKKEkQPVSkKJiCJiCIsSET4d2Z3ZjO72cRVktGW+cO7vJ03s/Ob2Tdv9hWUpEoBlywFXLIUcMlSwCVLAZcsBVyyXMD3ZzS0thGbOWCeOtqbt9v2r6PIXP+GDjBL35vY7B5zMTnzr2FaRw8iY0lk9kos4vFSwAU9BFw0bSSNE5MFPkIKuKCH5l82C9hfmURXu91OGyBzv2cPA0oBFxR4/oU0ogx6NPO49NIc4KUcFsc+IvSa9dceQtfwdP3c5415HSb5cgm7fiGldUT52OcG4u90K0brjGF255o1qqUGACfKpyJ2244kDpkviBoO3CT+EPUTo4dMVzexThtIa5uOyNdT1rKi4uakE0NBWzEdPCaMiU0PdQ68exDRN5UYvT2MxBFrU1ONAY6rLIasfnqQOmM+S7X7p2ow8AK+9dE+wpjNuU8UM8cXIoaNK+akOkoyfxhxww22uDOPiPXpRtyT4sCt8dPI8zwaKJ82CDiZa6rbbj+6Kc5VKnA+2DR2qyZ/h59xHfrbHiRyd8xnYmvUHjOa9k83xcyg9Vz7tI0y81WA676Tqq9GAS8h08/e/RF5vMHAj5HooH2Q1DFn4OSKg62h223EaR9t49i6YT6vLhnc9nnsM1cF+CAyl8wXWP8VcLIjv8egUT8zmseH4svYOCqg7N31Z8vostrpCNG87Wth1h+By+flABcWIbBeEPDDhVDwAXPTdlsPcCrzTxZTwxyUYKRaiX45gMnB80ULZC8NOP+aNcR/PPAlC3IB5/myddQg2bW+nLY+wB3d3yF/ZCCTGEevU3Vo6F0p2M/JgalTn5guguglACe1eK/Vj7ARAsgF3Nm1tLase+LTA9B+OW0uyG6wlV/xLNKNgdEnvPRLAO7U4X2kSmK+IHIDdwDo9fPSOblpsXbxX8Ln9HvJzrkjWYiVn6OqvH+NjRHaD9n1KbbrPSqTGJ1enPqS2OdlynMDpzdNqw+dlIQPXbTccgMnOlwI24PSSiORQ94UgN6WcGIkEeG3QVIDu/4l0KrDqpvJgqU9h+Q9qdEH7LQSWjhmTgL0gNfn5IKTOa3kd6LyWRYT9GLjiXku4OUbn38p7FlQVQHHfQlbkz3VB57HtPck7fgk+qIh3BrpznRVGv5xxXWhsuE3Ted2SmJGyMTExWs28ABG38m5cLlUu3+qauBMV6eG9W9DnLgFY/gzUkbBtRO9Ms9YrHNQ0gtPDFNZ9w4WVT73/EshMaEP41jc8UltzwRc67RL3K3TemnkicCVmiMFXLIUcMlSwCVLAZcsBVyyFHDJUsAlSwGXLAVcsqqAX1xcYG1tDaurq8qaYC7gsVgMLS0typpoDnAFW4a14C8tAnyudkujKAAAAABJRU5ErkJggg==" SearchSteps="FuzzySelector, Image, CV" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
@@ -153,7 +148,7 @@
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="https://apps.availity.com/availity/web/public.elegant.login" CvType="InputBox" DesignTimeRectangle="735, 792, 443, 46" DesignTimeScaleFactor="1.5" ElementType="InputBoxPassword" FriendlyName="'INPUT password'" FullSelectorArgument="&lt;webctrl id='password' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='password' tag='INPUT' type='password' class='input loginPassword' aaname='Password:' /&gt;" Guid="c97cd055-e1d5-4e79-ba04-424d996aaf4c" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAb8AAAAyCAYAAADMStXAAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAD7SURBVHhe7dWxDcMwAAPBTK31FagJYFseIPo7gB37/0wAiBE/AHIe8RtjmJmZHbOdS/zeTgDwr3Zt+8VP+AA41b1x4gfA8cQPgBzxAyBH/ADIET8AcsQPgBzxAyBH/ADIET8AcsQPgBzxAyBH/ADIET8AcsQPgBzxAyBH/ADIET8AcsQPgBzxAyBH/ADIET8AcsQPgBzxAyBH/ADIET8AcsQPgBzxAyBH/ADIET8AcsQPgBzxAyBH/ADIET8AcsQPgBzxAyBH/ADIET8AcsQPgBzxAyBH/ADIET8Acl7jtwggAKfZte0Sv2WdzMzMTtnOI34AcDrxAyBmzi+F2uMYzwZaNwAAAABJRU5ErkJggg==" InformativeScreenshot="cc9cff1efb5ba0e2be65dcb811405b73.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Log In to Availity®' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V2" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target CvTextArgument="Password:" CvType="Text" DesignTimeRectangle="735, 759, 112, 33" ElementType="Text" FriendlyName="'Password'" FullSelectorArgument="&lt;webctrl aaname='Password:' parentid='id3' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Password:' parentid='id3' tag='LABEL' type='' class='' check:innerText='Password:' /&gt;" ImageBase64="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" SearchSteps="FuzzySelector, Image, CV" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
@@ -188,7 +183,7 @@
               <uix:NCheckState.Target>
                 <uix:TargetAnchorable BrowserURL="https://apps.availity.com/public/apps/home/#!/" CvTextArgument="Logout" CvType="Text" DesignTimeRectangle="1776, 195, 154, 70" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'Logout'" FullSelectorArgument="&lt;webctrl class='user-account' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl class='user-account' tag='A' type='' aaname='      Logout ' check:innerText='Logout' /&gt;" Guid="4f44fd1c-d04a-4adb-871f-f1ca30e5891a" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAJ4AAABKCAYAAABKKu1CAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAATtSURBVHhe7dpBa9tmHMfxvKRd1u20XtKjzy45mvTSQjEYn3JxDgsMl5IthGZLR9wlIzgdOOtMClmhhhAxEAH5YCfFs7FVEIawvoX/nsd6ZD+SH89WY+uR5l/gc6j1RIqdbx5Jj7rS+rtNAFH459Mn4l8r/Ov3N38QQBRuPnwYhffV/VUCiML+wS8ID6LnC+/eNw8IIAqBGe8BqxFg8QIz3iqrEWDxfOF9yaZAgCj85A9vlb0IsHi+8O6xcy9AFPzXeIoBAIuA8EALhAdaIDzQAuGBFggPtEB4oAXCAy0QHmiB8EALhAdaIDzQAuGBFokKL/Vkm8oXTWo7t9S/FZwe1S9OaevJmvJ7IJ4SEt4a5Y9ManuxKfXIOCpQSvn9EDeJCO/xiUW2MrYgh8yTvHIfEC/xDy93RnU5rq5F5e/z9JBvS2dp48czMrvS9tsmVXKBfUDsxD68ZxfOKKpOjbbSinGZXapJ8dkXu+NjIFZiHt42nQ+Dcsh4OfkGIvXKHIbX77JAFWMgPmIe3msyvZjYKbSsmu086VPplGzRoWoMxEaCwpsWU5ixIRVr7h31Usykj2jzN4tqx6pt84PwZrFE4W2+6w0+Q/NEvX1eEN4slii8rfdLHV6W9i7dD+Au2pclWlfuPySEN3cxDU+eve5iTjPf54SXKdJh4PGe3bGoeqB6urLGrqtMupaWhNqNGu3lxOcwdlx2HXZsUL0rLTU5PTLPS5QP3IAdWnx7j86L/tfHt8krCCOLChDhzSJseDwYLzj+LPnKIrMxmsHb77el+NaGs8xgW4ONtVpk9/n3Ou4TG99x83R4JYLrO+74KxY4H89fC6x1zh5egf2hWFTvuPuxb/h+LarsjH/fPCC8WYQKLyt+oe6p/rG0LbVxKoJ0yDgQa5KFP+ma79uxqLwhrVPmSmR4M5B03PUTy32tY7AZUYzl0gUqW26Qtlkahj17eC6cavmHe2cawnsqHvH1TfpZse64Xmm6P5v1ehCH92Sm/iY7Nna4KD48bpYqDf6+bsl4pVhMf+qtZbL3LY6N8EJJcHgvDPf0yMJSbvfCHOyrQNUW/znVYQwXxYfH3afaRz5+0vvywhztD+GFkuDwvFPhpPC89zbYl3dB36RyZtpY6d//8b6CMSG8UDDjuYLhYcZbsASHF/Ia74fLKK7xHKq9CIwdRozwJAkOL+xdrbfv4F1tZpfOxdKGfNywd7VeSPblvm8JZ7Mq/gAC4XmPzFR/CPOE8GbhxcHYH52JjCMxfto6nvmrFKS0juety0nreIPXfcFPWcfrsplWDtJbruE6zcHanLtQ7dB1ix83cBo+FmE7rWVcx2O/jHct9wO4g7k/MpvCd3rKFKn8V+vzn1xYZ/RsRxy3cRZ4H/x/kPDxIkBuwpML7uF3p2TcjMLnP0dl55EIPhBeukgVazT2+m3Bt695iWl4MPBchHc16Q45uRCeZvm3bGZnp8x69Vv/NumarV5Z7PWWDghPtxy7ExXXZ7a4BpOv2eybsxluaJIH4cVAaqNEVXZdNbih4KdWrtsio7qvvGb7P0B4oAXCAy0QHmiB8EALhAdaIDzQAuGBFggPtEB4oAXCAy0QHmiB8EALhAdaIDzQAuGBFggPtEB4oAXCAy0QHmiB8EALhAdaIDzQAuGBFr7wvvj6PgFEYe/lAcKD6I3CW1n5F0ctKG8AQin5AAAAAElFTkSuQmCC" InformativeScreenshot="c30ed24bdbc2246e3126e7aaf924794a.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Availity Essentials - Less than 30 minutes left until session expiration.' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="2">
                       <uix:Target CvTextArgument="Office's Account" CvType="Text" DesignTimeRectangle="1501, 195, 275, 69" ElementType="Text" FriendlyName="'Office's Account'" FullSelectorArgument="&lt;webctrl aaname='      Office&amp;apos;s Account ' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='      Office&amp;apos;s Account ' tag='A' type='' class='user-account with-img dropdown-toggle dropdown-toggle-secondary cursor-pointer' check:innerText='Office&amp;apos;s Account' /&gt;" ImageBase64="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" SearchSteps="FuzzySelector, CV" />
                       <uix:Target CvElementArea="20, 197, 154, 56" CvTextArea="79, 217, 79, 25" CvTextArgument="Availity'" CvType="Button" DesignTimeRectangle="21, 198, 155, 57" ElementType="Button" FriendlyName="'Availity''" SearchSteps="CV" TargetType="ComputerVisionBased" />
                     </scg:List>
