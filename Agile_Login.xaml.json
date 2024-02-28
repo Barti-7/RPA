@@ -1,0 +1,53 @@
+{
+  "DisplayName": "Agile_Login",
+  "Tooltip": null,
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "Agile_Login_CredentIal",
+      "DisplayName": "Agile_Login_CredentIal",
+      "Category": null,
+      "Tooltip": "Input the credential Name",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "FolderName",
+      "DisplayName": "FolderName",
+      "Category": null,
+      "Tooltip": "Input the Folder Name",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "AgileBrowserPortal",
+      "DisplayName": "AgileBrowserPortal",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "LoginStatusFlag_Agile",
+      "DisplayName": "LoginStatusFlag_Agile",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    }
+  ]
+}

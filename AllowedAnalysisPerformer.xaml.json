@@ -1,0 +1,108 @@
+{
+  "DisplayName": "AllowedAnalysisPerformer",
+  "Tooltip": null,
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "CompanyName",
+      "DisplayName": "CompanyName",
+      "Category": null,
+      "Tooltip": "Input the company name from queue",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "StartDate",
+      "DisplayName": "StartDate",
+      "Category": null,
+      "Tooltip": "Input the Start date From Queue",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "EndDate",
+      "DisplayName": "EndDate",
+      "Category": null,
+      "Tooltip": "Input the End Date from queue",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "Path",
+      "DisplayName": "Path",
+      "Category": null,
+      "Tooltip": "Input the path form queue",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "AgileBrowserPortal",
+      "DisplayName": "AgileBrowserPortal",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "AllowedAnalysisSummaryReportURL",
+      "DisplayName": "AllowedAnalysisSummaryReportURL",
+      "Category": null,
+      "Tooltip": "Input the Allowed Analysis URL From Dispatcher Flow",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "CurrentMonth",
+      "DisplayName": "CurrentMonth",
+      "Category": null,
+      "Tooltip": "Input the current Month from Queue",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "LocationsSummary",
+      "DisplayName": "LocationsSummary",
+      "Category": null,
+      "Tooltip": "Input from SummaryReport",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "SNo",
+      "DisplayName": "SNo",
+      "Category": null,
+      "Tooltip": "Input From Summary Report",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    }
+  ]
+}

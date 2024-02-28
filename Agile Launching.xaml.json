@@ -1,0 +1,33 @@
+{
+  "DisplayName": "Agile Launching",
+  "Tooltip": null,
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "AgileURL",
+      "DisplayName": "AgileURL",
+      "Category": null,
+      "Tooltip": "Input the Agile URL",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "AgileBrowserPortal",
+      "DisplayName": "AgileBrowserPortal",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}
