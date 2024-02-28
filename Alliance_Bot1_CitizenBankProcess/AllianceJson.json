@@ -1,0 +1,44 @@
+{"LookupTable":
+{
+    "1191":"Citizens X1191 01-01-2024 to 01-31-2024",
+    "1447":"Citizens X1447 01-01-2024 to 01-31-2024",
+"1353":"Citizens X1353 01-01-2024 to 01-31-2024",
+"1455":"Citizens X1455 01-01-2024 to 01-31-2024",
+"1463":"Citizens X1463 01-01-2024 to 01-31-2024",
+"1471":"Citizens X1471 01-01-2024 to 01-31-2024",
+"1498":"Citizens X1498 01-01-2024 to 01-31-2024",
+"1987":"Citizens X1987 01-01-2024 to 01-31-2024",
+"3042":"Citizens X3042 01-01-2024 to 01-31-2024",
+"3069":"Citizens X3069 01-01-2024 to 01-31-2024",
+"3093":"Citizens X3093 01-01-2024 to 01-31-2024",
+"3107":"Citizens X3107 01-01-2024 to 01-31-2024",
+"3115":"Citizens X3115 01-01-2024 to 01-31-2024",
+"3123":"Citizens X3123 01-01-2024 to 01-31-2024",
+"3283":"Citizens X3283 01-01-2024 to 01-31-2024",
+"4168":"Citizens X4168 01-01-2024 to 01-31-2024",
+"8042":"Citizens X8042 01-01-2024 to 01-31-2024",
+"8050":"Citizens X8050 01-01-2024 to 01-31-2024",
+"8069":"Citizens X8069 01-01-2024 to 01-31-2024",
+"9334":"Citizens X9334 01-01-2024 to 01-31-2024"
+},
+"CitizenBankDispatcher":
+{
+
+    "Statement" :[
+    {
+    "URL": "https://accessoptima.com/ui/REPORTING/gireStatementSearch",
+    "Application_Name":"accessOPTIMA",
+    "Statement_type":"Deposit Account Statement",
+    "Date_Range":"Last Month",
+    "Accounts":"All Accounts"
+    },
+    {
+        "URL": "https://accessoptima.com/ui/REPORTING/balanceAndTransactionReporting",
+        "Application_Name":"accessOPTIMA",
+        "Statement_type":"Deposit Account Statement",
+        "Date_Range":"Last Month",
+        "Accounts":"All Accounts"
+        }
+]
+}
+}
