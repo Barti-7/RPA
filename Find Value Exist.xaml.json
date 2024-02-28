@@ -1,0 +1,75 @@
+{
+  "DisplayName": "Find Value Exist",
+  "Tooltip": null,
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "FindValue",
+      "DisplayName": "FindValue",
+      "Category": null,
+      "Tooltip": "Input the value which needs to check if exist",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "ValueExists",
+      "DisplayName": "ValueExists",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "ColumnName",
+      "DisplayName": "ColumnName",
+      "Category": null,
+      "Tooltip": "Input the column name where needs to check the value Exist",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "ExcelFile",
+      "DisplayName": "ExcelFile",
+      "Category": null,
+      "Tooltip": "Input Excel Filepath",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "SheetName",
+      "DisplayName": "SheetName",
+      "Category": null,
+      "Tooltip": "Input the Excel Sheet Name",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "ColumnAddress",
+      "DisplayName": "ColumnAddress",
+      "Category": null,
+      "Tooltip": "Input the column Address eg: A, B, I...",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    }
+  ]
+}

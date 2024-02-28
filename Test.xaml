@@ -1,0 +1,245 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Test" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="538,2738.6666666666665" sap2010:WorkflowViewState.IdRef="Test_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:sd1="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="48">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="44">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Test" sap:VirtualizedContainerService.HintSize="513.3333333333334,2474" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:Boolean" Name="ValueExist" />
+      <Variable x:TypeArguments="x:Double" Name="Sum_Column" />
+      <Variable x:TypeArguments="scg:List(x:Double)" Name="ColumnValues" />
+      <Variable x:TypeArguments="sd:Color" Name="Green" />
+      <Variable x:TypeArguments="sd:Color" Name="Yellow" />
+      <Variable x:TypeArguments="x:String" Name="DCDNotation" />
+      <Variable x:TypeArguments="x:String" Name="PBLNotation" />
+      <Variable x:TypeArguments="sd1:DataTable" Name="FilteredData" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="GetNotation.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="451.3333333333333,115.33333333333333" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_6" UnSafe="False" WorkflowFileName="GetNotation.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <OutArgument x:TypeArguments="x:String" x:Key="DCDNotation">
+          <VisualBasicReference x:TypeArguments="x:String" ExpressionText="DCDNotation" />
+        </OutArgument>
+        <OutArgument x:TypeArguments="x:String" x:Key="PBLNotation">
+          <VisualBasicReference x:TypeArguments="x:String" ExpressionText="PBLNotation" />
+        </OutArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="Month">
+          <Literal x:TypeArguments="x:String">8</Literal>
+        </InArgument>
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="GetColor.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="451.3333333333333,115.33333333333333" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_5" UnSafe="False" WorkflowFileName="GetColor.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <OutArgument x:TypeArguments="sd:Color" x:Key="Green">
+          <VisualBasicReference x:TypeArguments="sd:Color" ExpressionText="Green" />
+        </OutArgument>
+        <OutArgument x:TypeArguments="sd:Color" x:Key="Yellow">
+          <VisualBasicReference x:TypeArguments="sd:Color" ExpressionText="Yellow" />
+        </OutArgument>
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ReadTableAndFilter.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="338,115.33333333333333" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_7" UnSafe="False" WorkflowFileName="ReadTableAndFilter.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <InArgument x:TypeArguments="x:String" x:Key="SheetName">
+          <Literal x:TypeArguments="x:String">Transaction Detail - Deposi (2)</Literal>
+        </InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="ColumnName">
+          <Literal x:TypeArguments="x:String">Transaction Detail</Literal>
+        </InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="Value">
+          <Literal x:TypeArguments="x:String">9070</Literal>
+        </InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="ExcelFile">
+          <Literal x:TypeArguments="x:String">C:\BOT\Bank Recon\New Files\Continuum 1.1.24 to 1.31.24 Citizens.xlsx</Literal>
+        </InArgument>
+        <OutArgument x:TypeArguments="sd1:DataTable" x:Key="FilteredData">
+          <VisualBasicReference x:TypeArguments="sd1:DataTable" ExpressionText="FilteredData" />
+        </OutArgument>
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="FormatColumn.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="451.3333333333333,115.33333333333333" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_9" UnSafe="False" WorkflowFileName="FormatColumn.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <InArgument x:TypeArguments="x:String" x:Key="ExcelFile">
+          <Literal x:TypeArguments="x:String">C:\BOT\Bank Recon\New Files\Payment Batch Ledger - 1.1.24 to 1.31.24 Continuum.xlsx</Literal>
+        </InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="SheetName">
+          <Literal x:TypeArguments="x:String" xml:space="preserve">FIN - Payment Batch Ledger  (3)</Literal>
+        </InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="CellAddress">
+          <Literal x:TypeArguments="x:String">K</Literal>
+        </InArgument>
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Get Column Values (All).xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="451.3333333333333,115.33333333333333" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_4" UnSafe="False" WorkflowFileName="Get Column Values (All).xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <InArgument x:TypeArguments="x:String" x:Key="ExcelFile">
+          <Literal x:TypeArguments="x:String">C:\BOT\Bank Recon\New Files\Payment Batch Ledger - 1.1.24 to 1.31.24 Continuum.xlsx</Literal>
+        </InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="SheetName">
+          <Literal x:TypeArguments="x:String" xml:space="preserve">FIN - Payment Batch Ledger  (3)</Literal>
+        </InArgument>
+        <OutArgument x:TypeArguments="scg:List(x:Double)" x:Key="ColumnValues">
+          <VisualBasicReference x:TypeArguments="scg:List(x:Double)" ExpressionText="ColumnValues" />
+        </OutArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="ColumnName">
+          <Literal x:TypeArguments="x:String">Applied Amount</Literal>
+        </InArgument>
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
+    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="451.3333333333333,86.66666666666667" sap2010:WorkflowViewState.IdRef="MessageBox_3" Text="[&quot;columnvalues&quot;]" />
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="FormatColumn.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="451.3333333333333,115.33333333333333" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_10" UnSafe="False" WorkflowFileName="FormatColumn.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <InArgument x:TypeArguments="x:String" x:Key="ExcelFile">
+          <Literal x:TypeArguments="x:String">C:\BOT\Bank Recon\New Files\Bank Rec Details 1.24.xlsx</Literal>
+        </InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="SheetName">
+          <Literal x:TypeArguments="x:String">In DCD - Not in Bank</Literal>
+        </InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="CellAddress">
+          <Literal x:TypeArguments="x:String">I</Literal>
+        </InArgument>
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
+    <ui:ForEach x:TypeArguments="x:Double" CurrentIndex="{x:Null}" DisplayName="For Each" sap:VirtualizedContainerService.HintSize="451.3333333333333,740.6666666666666" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[ColumnValues]">
+      <ui:ForEach.Body>
+        <ActivityAction x:TypeArguments="x:Double">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Double" Name="currentItem" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="414.6666666666667,611.3333333333334" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="352.6666666666667,92" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[currentItem.ToString]" />
+            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="352.6666666666667,86.66666666666667" sap2010:WorkflowViewState.IdRef="MessageBox_5" Text="[currentItem.ToString]" />
+            <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Find Value Exist.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="352.6666666666667,115.33333333333333" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Find Value Exist.xaml">
+              <ui:InvokeWorkflowFile.Arguments>
+                <InArgument x:TypeArguments="x:Double" x:Key="FindValue">
+                  <VisualBasicValue x:TypeArguments="x:Double" ExpressionText="currentItem" />
+                </InArgument>
+                <OutArgument x:TypeArguments="x:Boolean" x:Key="ValueExists">
+                  <VisualBasicReference x:TypeArguments="x:Boolean" ExpressionText="ValueExist" />
+                </OutArgument>
+                <InArgument x:TypeArguments="x:String" x:Key="ColumnName">
+                  <Literal x:TypeArguments="x:String">Amount</Literal>
+                </InArgument>
+                <InArgument x:TypeArguments="x:String" x:Key="ExcelFile">
+                  <Literal x:TypeArguments="x:String">C:\BOT\Bank Recon\New Files\Bank Rec Details 1.24.xlsx</Literal>
+                </InArgument>
+                <InArgument x:TypeArguments="x:String" x:Key="SheetName">
+                  <Literal x:TypeArguments="x:String">In DCD - Not in Bank</Literal>
+                </InArgument>
+              </ui:InvokeWorkflowFile.Arguments>
+            </ui:InvokeWorkflowFile>
+            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="352.6666666666667,86.66666666666667" sap2010:WorkflowViewState.IdRef="MessageBox_4" Text="[ValueExist]" />
+          </Sequence>
+        </ActivityAction>
+      </ui:ForEach.Body>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:ForEach>
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Sum_TotalColumnValues.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="451.3333333333333,115.33333333333333" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="Sum_TotalColumnValues.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <InArgument x:TypeArguments="x:String" x:Key="ExcelFile">C:\BOT\Bank Recon\Temp 12-Feb-2024.xlsx</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="SheetName">New FIN - Paym</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="ColumnName">Applied Amount</InArgument>
+        <OutArgument x:TypeArguments="x:Double" x:Key="TotalofColumn">[Sum_Column]</OutArgument>
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
+    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="451.3333333333333,86.66666666666667" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[Sum_Column]" />
+    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="436.6666666666667,86.66666666666667" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[ValueExist]" />
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="CreateNewExcelToProcess.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="436.6666666666667,115.33333333333333" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="CreateNewExcelToProcess.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <InArgument x:TypeArguments="x:String" x:Key="ExcelFile">C:\Users\DRD-DEV-0007\Desktop\Bank Recon\Bank rec 10.23 just for reference\FIN - Payment Batch Ledger - Deposit Log - 10.1.23 to 10.31.23.xlsx</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="SheetName">FIN - Payment Batch Ledger-Bill</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="CreateNewExcelPath">C:\BOT\Bank Recon\</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="RowContains">Deposit Date</InArgument>
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
+  </Sequence>
+</Activity>

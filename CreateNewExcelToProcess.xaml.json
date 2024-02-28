@@ -1,0 +1,53 @@
+{
+  "DisplayName": "CreateNewExcelToProcess",
+  "Tooltip": null,
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "ExcelFile",
+      "DisplayName": "ExcelFile",
+      "Category": null,
+      "Tooltip": "Input the excel file path",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "SheetName",
+      "DisplayName": "SheetName",
+      "Category": null,
+      "Tooltip": "Input the Sheet Name",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "CreateNewExcelPath",
+      "DisplayName": "CreateNewExcelPath",
+      "Category": null,
+      "Tooltip": "Input the Filepath to store new excel",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "RowContains",
+      "DisplayName": "RowContains",
+      "Category": null,
+      "Tooltip": "Input the Value which needs to contain the row",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    }
+  ]
+}
