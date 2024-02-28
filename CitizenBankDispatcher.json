@@ -1,0 +1,9 @@
+{"CitizenBankDispatcher":
+{
+"URL" : [{"URL":["https://accessoptima.com/ui/REPORTING/gireStatementSearch"]},{"URL":["https://accessoptima.com/ui/REPORTING/balanceAndTransactionReporting"]}],
+    "Application Name":"accessOPTIMA",
+    "Statement type":"Deposit Account Statement",
+"Date range":"Last Month",
+"Accounts":"All Accounts"
+}
+}

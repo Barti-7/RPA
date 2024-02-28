@@ -1,0 +1,31 @@
+{
+  "DisplayName": "SplitTransactionExcel",
+  "Tooltip": null,
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "DownloadedTransactionPath",
+      "DisplayName": "DownloadedTransactionPath",
+      "Category": null,
+      "Tooltip": "Input the dowloaded Transaction path",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "ExcelSheet_AccountName",
+      "DisplayName": "ExcelSheet_AccountName",
+      "Category": null,
+      "Tooltip": "Input the excel sheet path",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    }
+  ]
+}

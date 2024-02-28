@@ -1,0 +1,31 @@
+{
+  "DisplayName": "Launch Citizen Bank",
+  "Tooltip": null,
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "CitizenBankPortal",
+      "DisplayName": "CitizenBankPortal",
+      "Category": null,
+      "Tooltip": "CitizenBank Browser variable",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "CitizenBankURL",
+      "DisplayName": "CitizenBankURL",
+      "Category": null,
+      "Tooltip": "Input the Citizen Bank URL",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    }
+  ]
+}

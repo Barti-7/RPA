@@ -1,0 +1,31 @@
+{
+  "DisplayName": "CitizenBank_Dispatcher",
+  "Tooltip": "Citizen Bank Dispatcher Process",
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "FolderPath",
+      "DisplayName": "FolderPath",
+      "Category": null,
+      "Tooltip": "Input the FolderPath",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "QueueName",
+      "DisplayName": "QueueName",
+      "Category": null,
+      "Tooltip": "Input the QueueName",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    }
+  ]
+}

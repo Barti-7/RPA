@@ -1,0 +1,75 @@
+{
+  "DisplayName": "AOEstatementDownload",
+  "Tooltip": null,
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "CitizenBankPortal",
+      "DisplayName": "CitizenBankPortal",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "EStatementURL",
+      "DisplayName": "EStatementURL",
+      "Category": null,
+      "Tooltip": "Input the Estatement URL From Queue",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "EstatementDownloadPath",
+      "DisplayName": "EstatementDownloadPath",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "DateRange",
+      "DisplayName": "DateRange",
+      "Category": null,
+      "Tooltip": "Input the Date Range from Queue",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "Accounts",
+      "DisplayName": "Accounts",
+      "Category": null,
+      "Tooltip": "Input the accounts  from the queue",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "StatementType",
+      "DisplayName": "StatementType",
+      "Category": null,
+      "Tooltip": "Input the statement type  from queue",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    }
+  ]
+}

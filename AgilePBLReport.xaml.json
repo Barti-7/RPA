@@ -1,0 +1,97 @@
+{
+  "DisplayName": "AgilePBLReport",
+  "Tooltip": null,
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "StartDate",
+      "DisplayName": "StartDate",
+      "Category": null,
+      "Tooltip": "Input the start date",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "EndDate",
+      "DisplayName": "EndDate",
+      "Category": null,
+      "Tooltip": "Input the endd date",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "companyName",
+      "DisplayName": "companyName",
+      "Category": null,
+      "Tooltip": "Input the company name",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "AgileBrowserPortal",
+      "DisplayName": "AgileBrowserPortal",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "PBLReportURL",
+      "DisplayName": "PBLReportURL",
+      "Category": null,
+      "Tooltip": "Input the PBL Report URL",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "PBLDownloadPathExcel",
+      "DisplayName": "PBLDownloadPathExcel",
+      "Category": null,
+      "Tooltip": "Input the PBL Download Path",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "FileName",
+      "DisplayName": "FileName",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "PBLDownloadPathCSV",
+      "DisplayName": "PBLDownloadPathCSV",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    }
+  ]
+}

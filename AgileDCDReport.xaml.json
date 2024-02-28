@@ -1,0 +1,97 @@
+{
+  "DisplayName": "AgileDCDReport",
+  "Tooltip": null,
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "StartDate",
+      "DisplayName": "StartDate",
+      "Category": null,
+      "Tooltip": "Input the startdate",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "EndDate",
+      "DisplayName": "EndDate",
+      "Category": null,
+      "Tooltip": "Input the end date",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "companyName",
+      "DisplayName": "companyName",
+      "Category": null,
+      "Tooltip": "Input the company name",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "AgileBrowserPortal",
+      "DisplayName": "AgileBrowserPortal",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "DCDURL",
+      "DisplayName": "DCDURL",
+      "Category": null,
+      "Tooltip": "Input the DCD URL",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "DCDFilePathExcel",
+      "DisplayName": "DCDFilePathExcel",
+      "Category": null,
+      "Tooltip": "Input the DCD File path",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "FileName",
+      "DisplayName": "FileName",
+      "Category": null,
+      "Tooltip": "GetFileName From Queue",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "DCDFilePathCSV",
+      "DisplayName": "DCDFilePathCSV",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "DisplayName": "Login to CitizenBank",
+  "Tooltip": null,
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "CitizenBankCredentials",
+      "DisplayName": "CitizenBankCredentials",
+      "Category": null,
+      "Tooltip": "Input the Login Credentials Name",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "FolderName",
+      "DisplayName": "FolderName",
+      "Category": null,
+      "Tooltip": "Input the FolderName",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "CitizenBankPortal",
+      "DisplayName": "CitizenBankPortal",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "CitizenBankURL",
+      "DisplayName": "CitizenBankURL",
+      "Category": null,
+      "Tooltip": "Input the Citizen Bank URL",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "LoginStatusFlag",
+      "DisplayName": "LoginStatusFlag",
+      "Category": null,
+      "Tooltip": "Get From Check Login Status Citizen Bank WorkFlow",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    }
+  ]
+}

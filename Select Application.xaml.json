@@ -1,0 +1,31 @@
+{
+  "DisplayName": "Select Application",
+  "Tooltip": null,
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "CitizenBankPortal",
+      "DisplayName": "CitizenBankPortal",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "ApplicationName",
+      "DisplayName": "ApplicationName",
+      "Category": null,
+      "Tooltip": "Input the ApplicationName from Queue",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    }
+  ]
+}

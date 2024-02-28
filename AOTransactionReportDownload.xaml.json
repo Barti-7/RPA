@@ -1,0 +1,75 @@
+{
+  "DisplayName": "AOTransactionReportDownload",
+  "Tooltip": null,
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "CitizenBankPortal",
+      "DisplayName": "CitizenBankPortal",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "DownloadedTransactionPath",
+      "DisplayName": "DownloadedTransactionPath",
+      "Category": null,
+      "Tooltip": "Input the path for Downloaded Transaction ",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "BalanceTransactionURL",
+      "DisplayName": "BalanceTransactionURL",
+      "Category": null,
+      "Tooltip": "Input the Balance Transaction URL from Queue",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "DateRange",
+      "DisplayName": "DateRange",
+      "Category": null,
+      "Tooltip": "Input the DateRange form Queue",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "Accounts",
+      "DisplayName": "Accounts",
+      "Category": null,
+      "Tooltip": "Input the Account from Queue",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "StatementType",
+      "DisplayName": "StatementType",
+      "Category": null,
+      "Tooltip": "Input the Statement type from Queue",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    }
+  ]
+}
