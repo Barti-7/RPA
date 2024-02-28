@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "aesthetic-fiber-402317",
+  "private_key_id": "3c64c381946668fd527f35400cd21337a672879e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC/D1yk1d8/c/sp\nG24ma7TtMof/PJtvtHx5yl3v9cxtNqVdB9B9xE80lxfsoWajme/U0U3VK69LoYUE\n07FgmaQ47ewQPQeVLab6tD0/kmBQ9IS3QBJJf1uOAAmD3NDqwUA/ClG1v0/jTa04\nPWogmGH3yGicYhfGt/wUGfbsofCBaSV6idTJxH+CLmzIPZcZXNn4Wb2SrgBWrfRg\nN2uKmFGICp6ajSdltogfw/M69r/wzVTbs2W2JiPrM755i0Gnl8J4oidsodSTr03G\nELNhDPZeqJLubACUDpqLabJQNLL0+QMG50itJVQk/8X5LW5kDfj+8oEvNqXKMF8c\nU8O1EpQRAgMBAAECggEAB6rQJvVGPj+jRqUJKJWN7y7l8kI2Yqc1j5Wla2nLyF43\nCKK1pTZpj0y48xAPFGWrEDlODE3yfPCAbA8qwRupUXeKz6QDV+M7Hjh5dMGlB9qo\nMMprcXOg8vPhbd9AqwsSTvVVDhwdUpvdZbJhPemflNgACraNCbZ8cToRhLGC+05x\nF4jO/lxMNWcuiYxsJUyCXaHhg1PFLdihSvIcMETAnHKA2CZrhvY9QLUwqfeBlVb2\n9B5+9sfQwn1rCrIPeVCi3lDY+l8KajiS17ePenV5mRKB2Y99/nAyQK7EwxtJ9/mH\nK/PrNeO8QaWNSOoh8ORhD6QNfjqCDEx4/aTM/24QAQKBgQDxF2DsBNkPXxBDGAc4\nGP38D2PQHMFcO5laRNYbqS+mrgsaTFT5STwwmq3nRoCt/yaHX07DV+wocsIZx8uV\nBdmNN4gqT2qfgPcVmzMi2J/HhirG96KkcVb1Z4vrUtnwHBtdkm3ASSWGZajhDp5s\nT5NbADJMEF/Zs9usRA7dwrjKkQKBgQDK3/US5nkbe12iH0eITNCXOoGYExksOOJ1\njIukI4HjxmwFUAsL6IWcu41x2lujSQIT2nm/o9hMnvj9Qt7OXyce9+5BU7ksxh2K\n4HWvfBGt6pYKpLJucSdSgva//lKsucQ6Cz483+qR2NxaEPd3XtB5ZNkECNco3ppE\nc6Q6OCLxgQKBgQDKr4XrRrQZiSlJztSa49/7XhDi8Jna6bwmOMLsJFOMRLvO0yeJ\nIHm6vv++9PXP0jdZDdZQwgUniDsIo4DS+0UHxQzzzSptiGWxw3W9MPM7Md+awKv6\npdKeo/vszg2tIGQdSbJ9OsGSeLr+4mRr2IagtcyTSBzdEKl47Qq2gzMKEQKBgDab\nIXP85QwooINKuA5P3rVV4hv0yAnHJe1N7yg3BncwqVKkwNRrucr+EIxcod3JgO2n\nGK4kg8vb3lkM7rvNkNIdGdwrlOQgT0NaN1MMqhWN1uT2f7CKdHMZHSGAavBi8BZP\ngGkSPCkVnfoAJxvSQXrrUh5r4r31bMCP/9xLz9wBAoGAKvLnDqkGHrkJvp+NYWTP\ndfqz0SEDkkUIOn+dIHgnE6sZG8FRWD56tIWvCkR++Zvwg52ru7TNMr9pwLU92e17\nkHKFLgNAKG3Q0hEJEQimQNTqwFxW8S4XMjwvPwGGpU2L9CNhf3n5MeMPVWRvmpqM\nj9TUqNdlKkLnMh7iSFfiyKE=\n-----END PRIVATE KEY-----\n",
+  "client_email": "uipath@aesthetic-fiber-402317.iam.gserviceaccount.com",
+  "client_id": "107565061618994975128",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/uipath%40aesthetic-fiber-402317.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
