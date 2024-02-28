@@ -1,0 +1,3 @@
+Line Dates of Service Rev Code Procedure Modifiers Type Charge Amount * Non-Covered Units Note Line Item Control # *
+1 09/25/2023 0521 99213 HC $0.00 UN 000211541
+2 09/25/2023 0521 T1015 HC $208.00 1 UN

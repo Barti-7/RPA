@@ -1,0 +1,227 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="CloseAllApplications" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1153.3333333333333,888" sap2010:WorkflowViewState.IdRef="CloseAllApplications_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.Activities.Runtime.Collections</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.Process</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap2010:Annotation.AnnotationText="Do the necessary procedures for ending the process (e.g., logout) and close the used applications." DisplayName="Close All Applications" sap:VirtualizedContainerService.HintSize="496,823.3333333333334" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="App_Path" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:LogMessage DisplayName="Log message (close applications)" sap:VirtualizedContainerService.HintSize="434,144.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Trace" Message="[&quot;Closing applications...&quot;]" />
+    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="434,388.6666666666667" sap2010:WorkflowViewState.IdRef="TryCatch_2">
+      <TryCatch.Try>
+        <ui:GetRobotAsset AssetName="Application_Path" CacheStrategy="None" DisplayName="Get Asset" FolderPath="Production" sap:VirtualizedContainerService.HintSize="334,173.33333333333334" sap2010:WorkflowViewState.IdRef="GetRobotAsset_1">
+          <ui:GetRobotAsset.TimeoutMS>
+            <InArgument x:TypeArguments="x:Int32" />
+          </ui:GetRobotAsset.TimeoutMS>
+          <ui:GetRobotAsset.Value>
+            <OutArgument x:TypeArguments="x:String">[App_Path]</OutArgument>
+          </ui:GetRobotAsset.Value>
+        </ui:GetRobotAsset>
+      </TryCatch.Try>
+      <TryCatch.Catches>
+        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="400,215.33333333333334" sap2010:WorkflowViewState.IdRef="Catch`1_2">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ActivityAction x:TypeArguments="s:Exception">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+            </ActivityAction.Argument>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,144.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="[UiPath.Core.Activities.LogLevel.Warn]" Message="[&quot;getasset error&quot;]" />
+          </ActivityAction>
+        </Catch>
+      </TryCatch.Catches>
+    </TryCatch>
+    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="434,54" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <TryCatch.Try>
+        <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: revenuemgr V5.10.2 Powered by Waystar" sap:VirtualizedContainerService.HintSize="434,971.3333333333334" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="764a1157-dc68-4cdb-a015-d595d37112db" Version="V2">
+          <uix:NApplicationCard.Body>
+            <ActivityAction x:TypeArguments="x:Object">
+              <ActivityAction.Argument>
+                <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+              </ActivityAction.Argument>
+              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="400,674" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'push button'" sap:VirtualizedContainerService.HintSize="338,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="764a1157-dc68-4cdb-a015-d595d37112db" Version="V3">
+                  <uix:NClick.Target>
+                    <uix:TargetAnchorable CvElementArea="1830, 176, 68, 38" CvType="CloseButton" DesignTimeRectangle="1833, 179, 64, 32" DesignTimeScaleFactor="1.5" ElementType="Button" FriendlyName="'push button'" FullSelectorArgument="&lt;ctrl name='CLAIMS: T1015 Adds' role='text' /&gt;&lt;ctrl idx='3' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='CLAIMS: T1015 Adds' role='text' /&gt;&lt;ctrl automationid='' role='push button' /&gt;" Guid="03fab49d-9bfb-46c5-833e-57bbc1e56590" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEQAAAAkCAYAAAAw55zoAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAGbSURBVGhD7ZlBToNAFIbxGh5C7+K+ceFCVy4aKwWpiQlxYboxJqa9ggfwCLB1aUrikgWXePJTR+Axk1BSQKdv8S068xjyf5nHos8Jw5CEEhHCcJzJmqoc5ZwtVvTw+ESe55HrulZxczun8+k9nV4ti6w8f03I8cUzuf5Ce5CNXM/8InPVwa8Q2Jq6d0VhEAQURRGlaUpZllkFMiEbMiopzmTVFIIrpGQkSaI9zCaQUUk5uVw2haCvsAl7ugNsJI7jIjOyN4TgY4NNG9vEBLIiM7I3hGAD6B60GZVbhPwwuJD8DTV0NTq6PrcrIoQxuBBF24Bt6/aFCGGMJkRhCmxa7xsRwhhdiIILUOhq+0SEMEQIQ4QwRhdiEmBa7xsRwhhNSNvAbev2hQhhDC6ka8Cuz+2KCGEMLuSvI0IYRiHyJzMTImMIJkQNqlzPp81GBlXFKBNjPRTM5j69vr3Tx+eX9rD/DNoEN6McZXp5fs0oE2Dwq6QcAtth90spA9R+5OCmoH3QV+pDaxPIhGzbNqncDEVj4dDRLh4sa/oGTmtlj9wng/kAAAAASUVORK5CYII=" InformativeScreenshot="f698a64b234831ee009a5192559fe298.png" ScopeSelectorArgument="&lt;wnd app='revenuemgr.exe' cls='Qt*QWindowIcon' title='revenuemgr V5.10.2 Powered by Waystar' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V2" Visibility="Interactive">
+                      <uix:TargetAnchorable.Anchors>
+                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                          <uix:Target CvElementArea="1662, 177, 160, 36" CvTextArea="1674, 185, 135, 18" CvTextArgument="PRINT Claim List" CvType="Button" DesignTimeRectangle="1663, 179, 158, 32" ElementType="Button" FriendlyName="'PRINT Claim List'" FullSelectorArgument="&lt;ctrl name='CLAIMS: T1015 Adds' role='text' /&gt;&lt;ctrl name='PRINT Claim List' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='CLAIMS: T1015 Adds' role='text' /&gt;&lt;ctrl name='PRINT Claim List' role='push button' automationid='' check:fulltext='PRINT Claim List' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAKIAAAAkCAYAAAAKG+HeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAQDSURBVHhe7ZyxbtUwFEDDb/ARsORL2BsGBpgYKsrre7RIKBUD6lIhofYLIiFmPqHV2xhRKzF26E8YXztO7OtrO+lz8gK6wxG8OL7xvT62YUiKs7MzwTD7hkVkFkFRHFwJmyeSF6eX4tPnL2K9XovVasUwO/Pu/bF4efhRPH9zrhzD3jkiPn11IVabUzIQw+Ti7dFGuWa714kIlh6uPqgbT05OxPX1tbi/vxcPDw8MszPgEjgFbhkZi4NLX0TYMo2Ed3d3ZDCG2RVwy8j47PW5LyKc39AI1lIBGCYXNzc3yjVwzhMR/jEJjXwcM1MDjoFr4JwnIjQAVEeGyY3xjUVk9gqLyCwCFnEqtrUoi0KU9ZZuZxyyi9hUhQzi407IVtTlkPsk7YQ695W12Kr2RlTmWtW4/YCmUm1V0/89TSnqLYpDQY3L7vtIEXX9Bo7hkehnVKIh2jRtXbs6p0nHjDObiIousbCICkKqbV3KNjxBlojU5E0kYjRHiXoeiziKiUTEA+qFUZNkRPQSNff5ExEVsaraP5HAtoj2dcX4YgN6HPQYTV67iDgHu0pD8Y+IKGml0BMTErGfaCxPXMSG7pddxPBC8fBENH0RaPHg+vW/3f5dTs5OP0yEtDR9Xftr1CkGdQidbsPGYvhvRCTFyi2ikwPRbkOKiOviTzgtIkUpqkrXymFAPuNF9McJQBxT23TMOPOI2E5KL1JAxG51+wmlRSQkzixiaJGQDDyacb3o324cMw63TmZnSu/WaWmQeNE6atIx40wkYoBuRYW2c4Au5BARPbkyi6hzS0+0IiRit9hsUiKiCTYLG+1QdI180tLQIuLn2aRjxplJRFycgIiRRIeJiHatRe2I7fNQDinx6An28wYmE5GaL/TsdMw4E4mYGpB/NOt+4aNsqIiOYJlFNGKnjlsFEjFUF3w99Vszt4gtZie2MLVNx4yzGBHtVUeJM1xEiRGwyixiNxHpyXZFpPLVpMSj67knEW3QcT1s3sMsSESgLQBRzFEiWlJnFVGi8wvF1c9V18kdEfcx+YbFo+tJ5z2ZiE1NxHTvSceMszARJd2u48YYJ6LErFhJThGx5BSUiPZ4fPpc5xMxgKoHFpE4WfA16p4RLE9EoJs0WdQfRkyLrl9EREuYvCK2kGJZeWMRJVoUc68WJiXeIkSUuGMH/Oe4cVMOuGQXkWEeA4vILAIWkVkEQRH55SlmLqIvT/HrpMxcRF8nNS/Yr9YbcXvLL9gz05B8wR4+OQKfgYAbjo434tv3n+LX7z9kMIYZCxzHsBP2nxxZS++IT44A8GEcIyPDTIX+CNPXXkLA+SGBnRGOaTi/zX9gGGZXwCVwSh/H1k5o8C4wzD4gLzLMrFyJv9EXvpdJUZDAAAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector, Image, CV" />
+                        </scg:List>
+                      </uix:TargetAnchorable.Anchors>
+                    </uix:TargetAnchorable>
+                  </uix:NClick.Target>
+                </uix:NClick>
+                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'revenuemgr.exe revenuem…'" sap:VirtualizedContainerService.HintSize="338,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="764a1157-dc68-4cdb-a015-d595d37112db" Version="V3">
+                  <uix:NClick.Target>
+                    <uix:TargetAnchorable CvElementArea="1880, 13, 28, 27" CvType="CloseButton" DesignTimeRectangle="1880, 13, 28, 27" DesignTimeScaleFactor="1.5" ElementType="Button" FriendlyName="'revenuemgr.exe revenuem…'" Guid="05959d33-252c-4173-8928-4eab8e1b90fd" InformativeScreenshot="dcd99287a48334ded8bc6468ef37e266.png" ScopeSelectorArgument="&lt;wnd app='revenuemgr.exe' cls='Qt*QWindowIcon' title='revenuemgr V5.10.2 Powered by Waystar' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V2" Visibility="Interactive">
+                      <uix:TargetAnchorable.Anchors>
+                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                          <uix:Target CvElementArea="1809, 13, 28, 27" CvType="MaximizeButton" DesignTimeRectangle="1809, 13, 28, 27" ElementType="Button" FriendlyName="'revenuemgr.exe revenuem…'" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                        </scg:List>
+                      </uix:TargetAnchorable.Anchors>
+                    </uix:TargetAnchorable>
+                  </uix:NClick.Target>
+                </uix:NClick>
+                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Yes'" sap:VirtualizedContainerService.HintSize="338,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="764a1157-dc68-4cdb-a015-d595d37112db" Version="V3">
+                  <uix:NClick.Target>
+                    <uix:TargetAnchorable CvElementArea="180, 162, 205, 36" CvTextArea="265, 171, 33, 18" CvTextArgument="Yes" CvType="Button" DesignTimeRectangle="179, 161, 208, 38" DesignTimeScaleFactor="1.5" ElementType="Button" FriendlyName="'Yes'" FullSelectorArgument="&lt;ctrl name='Yes' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Yes' role='push button' automationid='' check:fulltext='Yes' /&gt;" Guid="935c8519-5215-414f-896a-499f320131c2" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAANQAAAAqCAYAAADLRnVxAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAKeSURBVHhe7d0xbtRAFIBhV0hQ5iQg+Ty+jE8A3CAUbqKglIAoIKEwaQNJk0UbCURcEN/gkefxZG3P2LurHUsj+S8+KbEdd7/m2ZHGSV3XAiAMggICIiggIIICAhoN6t9DLa+vbuXlh+/y7PSrJCdfgMXSBl59vJQ3P1ZNG75mlDeoT+s/cnT2zXtjYOm0DW3E144TlNZ3dHbR/OGL03M5vr6V9d97qaoKWCxtQFt4/tiEiepCHgbtKCcoXdKamN6fy+X6t/fmwFJpE9qGNvL256rXjnKC0jlRL9YafTcElu742iw62sqwHyco+wKCMQ/w0za0EW1l2I8TlF6ofDcCYNhOnH6cAwQFbEVQQEAEBQREUEBABBWFQrIkkSRJJS995yspMj2fSFb4zyMOBBWLMpdUo8oK91yRNTGleemeQ1QIKiL+VaiUPNXjmRSdaxEngopKO/qluZTtsTJPR0Y9G9qGu4LZUbKLMOdEUJGxAZk42iCcMdBzfDgytr/3I9MIx5/TcDiCis5mxMuaEdANoBkNO6uYZWI013d/7l6DeRFUjOxq46wwamzVetS+vNDxsL/SDa7DbAgqUuYFhed5pxPbGPO85T4/Edf8CCpS24LaOY521dpgDJwTQUVqNKipkW8LxsD5EVSkxoOaPlcVeftSIj98dcPeCCpSk9E8PR/1z297y8ebv/kRVKSmgzLMNX3dfwC756fvh8MRFBAQQQEBERQQEEEBAe0cFNuIAdP22kaMjS6BaXttdMlWzMA4bcLub77TVszmYwHmyxsa1bubX3J37785sBTmYwGrp33NtZGdPhagzOdszBc4APRpG5/vdvycjaUrlY5/OifaFxXAUmkD2oKOeb6VyRoNCsD+CAoIiKCAgAgKCKaW/3MKyPanvUpXAAAAAElFTkSuQmCC" InformativeScreenshot="0e9842f0573e73ac555dff8cb770e602.png" ScopeSelectorArgument="&lt;wnd app='revenuemgr.exe' cls='Qt*QWindowIcon' title='revenuemgr' /&gt;" SearchSteps="Selector, FuzzySelector, Image, CV" Version="V2" Visibility="Interactive">
+                      <uix:TargetAnchorable.Anchors>
+                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                          <uix:Target CvElementArea="399, 161, 207, 37" CvTextArea="490, 171, 24, 18" CvTextArgument="No" CvType="Button" DesignTimeRectangle="399, 161, 208, 38" ElementType="Button" FriendlyName="'No'" FullSelectorArgument="&lt;ctrl name='No' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='No' role='push button' automationid='' check:fulltext='No' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAANQAAAAqCAYAAADLRnVxAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAJISURBVHhe7d1PasJAFIDxHCrnmWsI4kLIAfQWuYZu1BxAXLhXcKM3eO1TJzHzR2qZtAP5Fj/aJjq7jzekMClut5sASIOggIQICkiIoICEokFdr1dZrVayWCxkOp3KZDIBRksbWC6Xsl6v722EmlHBoPb7vczn8+DCwNhpG9pIqB0vKK3PxjSbzWSz2cjpdJLL5QKMljagLWgTNqrQpPKC0pFmYzoej8HFgbHSJmxU2orbjxeU7hP1w1pjaEFg7Lbb7b0RbcXtxwvKPoBgmweEaRvaiLbi9uMFpR9UoYUAPNhO3H4ICvgFggISIiggIYICEiKoTNWmkKJQRmrvfi1G75nauY7/RlCZ6oIqpKwa5z5B5YqgMvUIyoh5/uxPKYLKFUFlygZVN5WUXjyRoGrTTrX4dhFDIqhMtUG1v5dSNfa+H1RTlfeITN2t8bj2+j0MjaAy9RrUxZtSblCxLWAjVfl9vayk6V3HUAgqU72g2r/ttHECem71XqeTxZT6WwSVKTeo/pTqB/UumtBWEMMhqEx5QbXXNByCyhVBZSoUVDeZDFu+TBFUpsJBdRPnzgbFQ4lsEFSmYkG18TgBhbZ23Raxu4ZhEVSm4kG9TCl3IvGP3X9HUEBCBAUkRFBAQgQFJPTjoDhGDHjvo2PEOOgSeO+jgy45ihmI+/goZvdlAbvdTs7nc3BxYCx0m6eTycb045cFKF5nA8RpG4fDwetGBYNSWp+ONN0n2gcVwFhpA9qCNhGaTFY0KACfIyggIYICEiIoIJmbfAEkFrwTMLzJhwAAAABJRU5ErkJggg==" SearchSteps="Selector, FuzzySelector, Image, CV" />
+                        </scg:List>
+                      </uix:TargetAnchorable.Anchors>
+                    </uix:TargetAnchorable>
+                  </uix:NClick.Target>
+                </uix:NClick>
+              </Sequence>
+            </ActivityAction>
+          </uix:NApplicationCard.Body>
+          <uix:NApplicationCard.TargetApp>
+            <uix:TargetApp Area="-11, -11, 1942, 1042" FilePath="[App_Path]" IconBase64="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" InformativeScreenshot="a8daeefc2881d362f7ba15eca0fae8e2.png" Selector="&lt;wnd app='revenuemgr.exe' cls='Qt*QWindowIcon' title='revenuemgr V5.10.2 Powered by Waystar' /&gt;" Title="revenuemgr V5.10.2 Powered by Waystar" />
+          </uix:NApplicationCard.TargetApp>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </uix:NApplicationCard>
+      </TryCatch.Try>
+      <TryCatch.Catches>
+        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="438.6666666666667,22" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ActivityAction x:TypeArguments="s:Exception">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+            </ActivityAction.Argument>
+            <ui:KillProcess AppliesTo="{x:Null}" ContinueOnError="{x:Null}" Process="{x:Null}" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="334,136.66666666666666" sap2010:WorkflowViewState.IdRef="KillProcess_1" ProcessName="C:\Program Files (x86)\Waystar\RevenueMgr\RevenueMgr.exe">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </ui:KillProcess>
+          </ActivityAction>
+        </Catch>
+      </TryCatch.Catches>
+    </TryCatch>
+  </Sequence>
+</Activity>
